@@ -1,8 +1,5 @@
 (in-package :cl-user)
 
-(eval-when (:compile-toplevel :load-toplevel :execute)
-  (ql:quickload :split-sequence :silent t))
-
 (defpackage :nesper
   (:use :cl)
   (:import-from :split-sequence
